@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .logos ul{
+            display: flex;
+            /* flex-wrap: wrap;  */
+            justify-content: space-between;
+        }
+        .logos ul li img{
+            height: 70px;
+            width: 100px;
+        }
+        .det-btns {
+            display: flex;
+            gap: 30px;
+            /* justify-content: space-evenly; */
+        }
+    </style>
+</head>
+<body>
+    <!-- top banner -->
+    <div class="top-banner">
+        <div class="container">
+            
+            <div class="small-bold-text banner-text">😍FOR BEGINNERS AND EXPERIENCED LEARNERS 🌹 </div>
+        </div>
+    </div>
+    <!-- Nav-bar -->
+        <nav id="main-nav"> 
+            <div class="container main-nav flex">
+                <a href="#" class="company-logo">
+                    <img src="assets/logomain2.jpg" alt="company logo">
+                </a>
+                <div class="nav-links">
+                  <ul class="flex">  
+                    <li><a href="#home" class="hover-link">Home</a></li>
+                    <li><a href="#abt" class="hover-link">About</a></li>
+                    <li><a href="#courses" class="hover-link">Courses</a></li>
+                    <li><a href="#contact" class="hover-link">Contact</a></li>
+                    <li><a href="#courses" class="hover-link secondary-button" id="res-btn">Enroll Now</a></li>
+                    <!-- <a href="#"> <i class="fa-solid fa-xmark" ></i></a> -->
+                    
+    
+                    <!-- <li><a href="#" class="hover-link primary-button">Sign up</a></li> -->
+                  </ul>
+    
+                </div>
+                <!-- <a href="#" class="nav-toggle hover-link" onclick="toggleMobileNav()"><i class="fa-solid fa-bars"></i></a> -->
+    
+            </div>
+        </nav>
+    <header id="home">
+        <div class="container header-section flex">
+             <div class="header-left">
+                <h1 style="margin-bottom: 20px;">Full Stack Web Development Course — MERN Stack</h1>
+                <p>Learn to build entire web applications from start to finish on one of the most versatile tech stacks : MongoDB, Express.js, React.js and Node.js (MERN stack)</p>
+                  <div class="logos">
+                    <ul>
+                        <li><img src="assets/Details/mongo-db-100x60-22338.png" alt="Mongo"></li>
+                        <li><img src="assets/Details/express-js-100x60-22337.png" alt="Mongo"></li>
+                        <li><img src="assets/Details/react-js-100x60-22346.png" alt="Mongo"></li>
+                        <li><img src="assets/Details/node-js-100x60-22339.png" alt="Mongo"></li>
+
+                    </ul>
+                  </div> 
+                  <div class="det-btns"> 
+                    <a href="#" class="secondary-button">Curriculum </a>
+                    <a href="#" class="primary-button">Enroll Now </a>
+                   
+                </div>
+               
+            </div>
+             <div class="header-right">
+                <img src="assets/details2.jpg" alt="hero img">
+             </div>
+        </div>
+    </header>
+    
+</body>
+</html>l
